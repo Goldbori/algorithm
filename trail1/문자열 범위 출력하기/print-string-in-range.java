@@ -7,8 +7,6 @@ public class Main {
 
         String my_string = sc.nextLine();
 
-        for (int i = 2 ; i < 10 ; i++) {
-            System.out.printf("%c",my_string.charAt(i));
-        }
+        System.out.println(my_string.substring(2,10));
     }
 }
